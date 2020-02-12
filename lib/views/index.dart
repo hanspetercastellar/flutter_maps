@@ -39,7 +39,7 @@ class _IndexState extends State<Index> {
         ) ,
         appBar: new AppBar(title: new Text('Leaflet Maps')),
           body: new FlutterMap(
-        options: new MapOptions(
+          options: new MapOptions(
           center: new LatLng(11.0156228, -74.8206213),
           zoom: 13.0,
         ),
